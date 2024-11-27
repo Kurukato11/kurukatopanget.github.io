@@ -1,0 +1,112 @@
+p {
+    font-family: 'Lucida Sans';
+    color: #91e9ff;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+p1 {
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #91e9ff;
+    margin-top: 9%;
+    margin-left: 45px;
+}
+
+p3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.topImg img{
+    width: 100%;
+    height: auto;
+}
+
+.MyProfile img{
+    float: left;
+    width: 20%;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 10%;
+}
+
+body {
+    background-color: #0d1d4a;
+}
+
+.home-content {
+    color: beige;
+    font-size: none;
+    font-family: 'Lucida Sans';
+  }
+  span {
+    color: beige;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    margin-left: 8%;
+    height: auto;
+  }
+p2 {
+    color: beige;
+    margin-left: 9%;
+    font-size: larger;
+    height: auto;
+}
+
+.ServiceImg img{
+    width: 40%;
+    height: auto;
+    float: bottom;
+    bottom: 10%;
+    padding-left: 40px;
+    border-radius: 5%;
+}
+
+.ServiceSecond img{
+    width: 40%;
+    height: auto;
+    float: bottom;
+    bottom: 10%;
+    padding-left: 40px;
+    border-radius: 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar a {
+  font-size: 120%;
+  color:aqua;
+  margin-left: 4%;
+  transition: 1.3s ease; 
+  border-radius: 6px;
+  background-color: #091024;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+
+}
+.navbar a:hover,
+.navbar a.activate {
+  color: aqua;
+  border-bottom:  3px solid var(--main-color);  
+}
